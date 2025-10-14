@@ -1,3 +1,7 @@
+__version__ = "0.0.0"
+
+from . import adapters
+
 from . import status_codes as _status
 
 __all__ = [
@@ -16,6 +20,8 @@ __all__ = [
     "Err422",
     "HttpErr422UnprocessableEntity",
 ]
+
+
 
 for name in __all__:
     globals()[name] = getattr(_status, name)

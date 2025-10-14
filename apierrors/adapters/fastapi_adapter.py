@@ -1,4 +1,4 @@
-from typing import Mapping, TypeVar, List, NoReturn
+from typing import TypeVar, NoReturn
 
 from fastapi import HTTPException
 
@@ -8,8 +8,8 @@ E_co = TypeVar("E_co", bound=Error, covariant=True)
 
 
 def http_exception(
-    *,
-    error: HttpErrorEnvelope,
+        *,
+        error: HttpErrorEnvelope,
 ) -> NoReturn:
     """
     Build FastAPI HTTPException using our envelope shape inside `detail`.
