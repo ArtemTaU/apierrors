@@ -1,0 +1,66 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version  # pyenv
+
+# --- Packaging / build artifacts (PyPI) ---
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheelhouse/
+
+# PEP 582 local packages
+__pypackages__/
+
+# --- Coverage / reports ---
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Logs / profiling ---
+*.log
+*.tmp
+*.temp
+*.pid
+*.prof
+*.pstats
+
+# --- Docs (Sphinx/ MkDocs build) ---
+docs/_build/
+site/
+
+# --- dotenv / local config (если хранишь локально секреты) ---
+.env
+.env.*
+!.env.example
+
+# --- Tool-specific (опционально, раскомментируй при использовании) ---
+# poetry.lock        # для библиотек часто не коммитят, но решай по политике проекта
+# pdm.lock
+# pip-wheel-metadata/
