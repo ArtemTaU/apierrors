@@ -4,7 +4,7 @@ from time import sleep
 import pytest
 from datetime import datetime, timezone
 
-from ....apierrors.errors_models.base.base import ErrorFields, Error
+from apierrors.errors_models.base.base import ErrorFields, Error
 
 
 @pytest.fixture

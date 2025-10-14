@@ -3,7 +3,7 @@ from datetime import datetime
 
 import pytest
 
-from ....apierrors import Err400, HttpErr400BadRequest
+from apierrors import Err400, HttpErr400BadRequest
 
 
 # --------------------

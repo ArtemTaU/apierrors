@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 import pytest
 
-from ....apierrors.errors_models.base.mixins import _compact_dict, ToDictMixin
+from apierrors.errors_models.base.mixins import _compact_dict, ToDictMixin
 
 
 # --------------------

@@ -4,8 +4,8 @@ from dataclasses import is_dataclass
 
 import pytest
 
-from ...apierrors.errors_models.base import Error
-from ...apierrors.errors_models import HttpErrorEnvelope
+from apierrors.errors_models.base import Error
+from apierrors.errors_models import HttpErrorEnvelope
 
 
 @pytest.fixture
