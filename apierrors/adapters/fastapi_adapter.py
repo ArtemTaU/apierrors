@@ -21,8 +21,8 @@ def http_exception(
     The response body will look like:
     {
       "detail": {
-        "status_code": <int>,
-        "detail": [ <error dicts> ],
+        "status_code": <int>, \n
+        "detail": [ <error dicts> ], \n
         "headers": { ... } | null
       }
     }

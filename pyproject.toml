@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "apierrors"
-version = "0.0.1"
+version = "0.0.7"
 description = "Transport-agnostic, typed error DTOs and envelopes for APIs"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -29,3 +29,6 @@ Issues = "https://github.com/ArtemTaU/apierrors/issues"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["apierrors*"]
+
+[tool.setuptools.package-data]
+apierrors = ["py.typed"]
