@@ -15,7 +15,6 @@ class Err405(Error):
     """
     code: str = field(default="METHOD_NOT_ALLOWED", init=False)
     error_type: str = field(default="method_not_allowed")
-    method: str | None = None
     allowed_methods: Sequence[str] = field(default_factory=tuple)
 
 
